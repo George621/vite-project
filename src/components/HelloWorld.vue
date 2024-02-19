@@ -15,7 +15,6 @@ const count = ref(0)
 </template>
 
 <style lang="scss" scoped>
-  @import "@/assets/scss/globalVar.scss";
   .sc {
     color: $color;
   }

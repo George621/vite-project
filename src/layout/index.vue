@@ -8,9 +8,16 @@
         mode="horizontal"
         :style="{ lineHeight: '64px' }"
       >
-        <a-menu-item key="1">nav 1</a-menu-item>
-        <a-menu-item key="2">nav 2</a-menu-item>
-        <a-menu-item key="3">nav 3</a-menu-item>
+        <a-menu-item key="1">
+          <router-link to="/index">首页</router-link>
+        </a-menu-item>
+        <a-menu-item key="2">
+          <router-link to="/usercenter">个人中心</router-link>
+        </a-menu-item>
+        <a-menu-item key="3">
+          <router-link to="/sysset">系统设置</router-link>
+
+        </a-menu-item>
       </a-menu>
     </a-layout-header>
     <a-layout>
@@ -25,27 +32,33 @@
             <template #title>
               <span>
                 <user-outlined />
-                subnav 1
+                index
               </span>
             </template>
             <a-menu-item key="1">
-              <router-link to="/about">about</router-link>
+              <router-link to="/index1">index1</router-link>
             </a-menu-item>
             <a-menu-item key="2">
+              <router-link to="/index2">index2</router-link>
+            </a-menu-item>
+            <a-menu-item key="3">
               <router-link to="/home">home</router-link>
             </a-menu-item>
-            <a-menu-item key="3">option2</a-menu-item>
-            <a-menu-item key="4">option3</a-menu-item>
+            <a-menu-item key="4">
+              <router-link to="/about">about</router-link>
+            </a-menu-item>
             <a-menu-item key="5">option4</a-menu-item>
           </a-sub-menu>
           <a-sub-menu key="sub2">
             <template #title>
               <span>
                 <laptop-outlined />
-                subnav 2
+                ss
               </span>
             </template>
-            <a-menu-item key="5">option5</a-menu-item>
+            <a-menu-item key="5">
+              <router-link to="/index1">index1</router-link>
+            </a-menu-item>
             <a-menu-item key="6">option6</a-menu-item>
             <a-menu-item key="7">option7</a-menu-item>
             <a-menu-item key="8">option8</a-menu-item>

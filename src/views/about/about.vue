@@ -6,7 +6,7 @@
     this is about
   </h3>
   <ul class="testflex">
-    <li>测试flex</li>
+    <li class="text-gray-500 bg-slate-300 ">测试flex</li>
     <li>2</li>
   </ul>
 </template>

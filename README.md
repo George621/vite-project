@@ -2,3 +2,6 @@
 
 ## eslint + ts + antd-vue + vueRouter
  
+## tailwind
+## axios
+## pinia

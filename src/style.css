@@ -1,3 +1,8 @@
+/* tailwind 基础样式 组件样式 工具样式 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
